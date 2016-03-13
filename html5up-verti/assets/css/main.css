@@ -192,7 +192,7 @@
 /* Grid */
 
 	.row {
-		border-bottom: solid 6px transparent;
+		border-bottom: solid 1px transparent;
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
@@ -1867,21 +1867,21 @@
 	}
 
 		#logo h1 {
-			background: #10AADE;
+			background: #ff4486;
 			color: #fff;
-			border-radius: 4px;
+			border-radius: 6px;
 			font-family: 'Oleo Script', serif;
-			font-weight: 500;
+			font-weight: 400;
 			padding: 0.25em 0.2em 0.25em 0.2em;
-			font-size: 1.25em;
+			font-size: 3.25em;
 			letter-spacing: 0.05em;
 			display: inline-block;
 			vertical-align: middle;
 		}
 
 		#logo span {
-			font-weight: 500;
-			line-height: 5.5em;
+			font-weight: 800;
+			line-height: 4.5em;
 			letter-spacing: 0.025em;
 			font-size: 0.9em;
 			vertical-align: middle;
@@ -1991,27 +1991,43 @@
 				z-index: 1;
 			}
 
-/* Banner */ 
-	
+/* Banner */
+
+	#banner {
+		position: relative;
+		padding: 4.5em;
+	}
 
 		#banner h2 {
 			font-size: 3.5em;
-			margin-right: -8em;
-			text-align: center;
-
-			;
+			margin: 0.1em 0 0.35em 0;
 		}
 
 		#banner p {
 			font-size: 2.75em;
-			margin-right: -9em;
-			text-align: center;
-			margin-top: -0.5em;
-			margin-bottom: 0em;
+			line-height: 1.35em;
+			margin: 0;
 		}
 
+		#banner .button {
+			width: 100%;
+			margin-bottom: 0.5em;
+		}
 
-		;
+			#banner .button.icon:before {
+				position: absolute;
+				right: 0.15em;
+				top: 50%;
+				margin-top: -0.5em;
+			}
+
+			#banner .button.alt {
+				margin-bottom: 0;
+			}
+
+		#banner ul {
+			margin: 0 0 0 2em;
+		}
 
 /* Footer */
 
