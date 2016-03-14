@@ -1998,7 +1998,8 @@
 			font-size: 3.5em;
 			margin-right: -8em;
 			text-align: center;
-
+			font-family: 'Sanchez', serif, cursive; 
+ 
 			;
 		}
 
@@ -2008,6 +2009,7 @@
 			text-align: center;
 			margin-top: -0.5em;
 			margin-bottom: 0em;
+			font-family: 'Sanchez', serif;
 		}
 
 
@@ -2556,7 +2558,7 @@
 		/* Content */
 
 			#content {
-				padding-bottom: 3em;
+				padding-bottom: -30em;
 			}
 
 		/* Footer */
@@ -2565,10 +2567,12 @@
 				border-bottom: solid 1px #ccc;
 				padding-bottom: 3em;
 				margin-bottom: 1em !important;
+				margin-right: -40em;
 			}
 
 			#copyright {
 				text-align: left;
+
 			}
 
 	}
