@@ -14,7 +14,7 @@
 		padding: 0;
 		border: 0;
 		font-size: 100%;
-		font: inherit;
+		font: serif;
 		vertical-align: baseline;
 	}
 
@@ -1585,7 +1585,7 @@
 	}
 
 	h2, h3, h4, h5, h6 {
-		font-family: 'Open Sans Condensed', sans-serif;
+		font-family: serif;
 		font-weight: 700;
 		color: #232323;
 	}
@@ -1665,7 +1665,7 @@
 /* Form */
 
 	form label {
-		font-family: 'Open Sans Condensed', sans-serif;
+		font-family: serif;
 		font-weight: 700;
 		color: #232323;
 		margin: 0 0 0.75em 0;
@@ -1716,7 +1716,7 @@
 	}
 
 		header > p {
-			font-family: 'Open Sans Condensed', sans-serif;
+			font-family: serif;
 			font-weight: 300;
 			display: block;
 			margin-top: 1em;
@@ -2286,7 +2286,7 @@
 	}
 
 		#copyright p {
-			opacity: 0.75;
+			opacity: 0.50px;
 		}
 
 		#copyright a {
@@ -2319,7 +2319,7 @@
 			}
 
 			h2 {
-				font-size: 1.2em;
+				font-size: 1em;
 			}
 
 			h3, h4, h5, h6 {
@@ -2489,21 +2489,24 @@
 		/* Box */
 
 			.box.post h2 {
-				font-size: 3.25em;
-				line-height: 1.25em;
+				font-size: 2.50em;
+				line-height: 1em;
+				text-align : justify;
 			}
 
 			.box.post header {
 				padding: 2.75em 0 0 0;
 				margin: 0 0 3em 0;
+				text-align : justify;
 			}
 
 				.box.post header > p {
-					font-size: 2.25em;
-					line-height: 1.5em;
+					font-size: 1.30em; 
+					line-height: 1.25em;
 					position: relative;
-					top: -0.65em;
+					top: -0.35em;
 					margin-bottom: -0.65em;
+					text-align : justify;
 				}
 
 			.box.post .info {
@@ -2526,6 +2529,7 @@
 					font-family: 'Open Sans Condensed', sans-serif;
 					font-weight: 400;
 					text-align: center;
+
 					display: block;
 					font-size: 1.5em;
 					color: #999;
@@ -2756,9 +2760,10 @@
 			}
 
 				.box.post header > p {
-					font-size: 1em;
-					font-family: 'Source Sans Pro', sans-serif;
-					line-height: 1.5em;
+					font-size: 0.75em;
+					font-family: serif;
+					line-height: 0.50em;
+					font-style: cursive;
 				}
 
 				.box.post .info {
