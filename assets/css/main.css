@@ -1732,6 +1732,35 @@
 		article > .inner > :last-child, article:last-child {
 			margin-bottom: 0;
 		}
+/* Icono  
+
+.share-news .share-icon.fa-twitter {
+    font-size: 80px;
+}
+.share-news .share-icon {
+    font-size: 70px;
+    line-height: 30px;
+    margin: 60px;
+    margin-top: 50px
+    clear: both;
+    text-align: center;
+    background-color: #55ACEE;
+    background-position: 3px 2px;
+}
+
+.fa {
+    display:;
+    font: normal normal normal 20px/1 FontAwesome;
+    font-size: ;
+    text-rendering: auto;
+    color: white;
+    /* -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #55ACEE;
+    background-position: 10px 8px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+
 
 /* Image */
 
@@ -2082,7 +2111,7 @@
 			-webkit-font-smoothing: antialiased;
 			font-family: FontAwesome;
 			font-style: normal;
-			font-weight: normal;
+			font-weight: bi;
 			text-transform: none !important;
 		}
 
@@ -2172,7 +2201,7 @@
 			letter-spacing: 0.1em;
 			text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.5);
 			box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
-			text-align: center;
+			text-align: right;
 		}
 
 			#titleBar .title a {
