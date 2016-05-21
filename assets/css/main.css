@@ -26,6 +26,7 @@
 		line-height: 1;
 	}
 
+
 	ol, ul {
 		list-style: none;
 	}
@@ -1942,6 +1943,8 @@
 
 /* Box */
 
+	
+
 	.box.calendar .inner {
 		position: relative;
 		background-color: #272E39;
@@ -2786,6 +2789,11 @@
 				padding-bottom: 5em;
 				margin-bottom: 6em;
 			}
+
+			.TFM {
+		    margin-right: -15px;
+    		margin-left: -15px;
+	}
 
 				.box.post header > p {
 					font-size: 0.75em;
