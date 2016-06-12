@@ -55,6 +55,7 @@
 					})
 					.trigger('resize');
 
+
 			// Title Bar.
 				$(
 					'<div id="titleBar">' +
@@ -83,6 +84,9 @@
 						.css('transition', 'none');
 
 	});
+
+				
+				
 
 
 
